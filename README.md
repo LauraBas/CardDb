@@ -15,6 +15,8 @@
 
 # Contexto del proyecto
 
+### Trabajo realizado en equipo en el Bootcamp Factoría F5.
+
 ## El Consultorio
 
 Nos encontramos en una empresa de desarrollo y necesitamos una aplicación que permita pedir cita al CTO para resolver problemas técnicos de los equipos de desarrollo.
