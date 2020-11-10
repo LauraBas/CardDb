@@ -149,3 +149,14 @@ nav ul {
     font-size: 1.7vw;
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+    button {
+        width: 20px;
+        height: 15px;
+    }
+    .btn{
+        font-size: 1.5vw;
+        padding: 2px;
+
+    }
+  }
