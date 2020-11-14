@@ -15,61 +15,36 @@
 
 # Contexto del proyecto
 
-### Trabajo realizado en equipo en el Bootcamp Factoría F5.
+### Team Workin the Bootcamp Factoría F5.
 
-## El Consultorio
+# MVC CRUD
 
-Nos encontramos en una empresa de desarrollo y necesitamos una aplicación que permita pedir cita al CTO para resolver problemas técnicos de los equipos de desarrollo.
+## Requiered
 
-De momento vamos a desarrollar un producto mínimo viable (MVP). Empezaremos con un código spaguetti, en PHP e intentaremos llegar a una aplicación orientada a objetos usando el patrón MVC (Modelo, Vista, Controlador).
+- PHP 7.4
+- Composer installed
 
-### Requisitos Funcionales:
+## Install
 
-La aplicación constará de al menos 3 páginas
+- composer install
 
-- Una página para la lista con todas las citas previstas.
-- Una página con un formulario para crear una nueva cita.
-- Una página para editar una cita concreta.
+## Run Tests
 
-Páginas:
+- vendor/bin/phpunit
 
-- Lista: Las citas beben aparecer por orden de creación con:
-    -El nombre del coder o del equipo.
-    -El tema de consulta
-    -Fecha y hora de la creación de la cita
-    -Las citas se podrán eliminar.
-    -Podremos acceder a la edición de cada cita, y a la página de creación de una cita nueva.
+## Bootcamp F5 Excercise
 
-- Crear nueva cita:
-    -Formulario con los campos necesarios obligatorios
-    -Botón para borrar los campos
-    -Botón para cancelar y volver a la lista principal
-    -Botón para enviar la información
+### The Clinic
 
--Editar cita:
-    -Formulario con los campos necesarios obligatorios.
-    -Los campos deben tener la información de la cita a editar
-    -Boton cancelar, Botón de enviar
+Our company is a development company and we need an application that allows us to request an appointment with the CTO to solve technical problems of the development teams.
 
-La aplicación deberá ser responsiva.
+At the moment we are going to develop a minimum viable product (MVP). We will start with a spaghetti code, in PHP and try to arrive at an object-oriented application using the MVC pattern (Model, View, Controller).
 
-### Requisitos Técnicos:
+#### Technical requirements:
 
-- Aplicación de tipo CRUD (Create, Read, Update, Delete)
-- Deberá ser Orientada a objetos con el patrón MVC
-- Deberá estar en un servidor gratuito en producción.
-- Se debe usar Git con buenas prácticas en los commits.
-- El repositorio debe contener un Readme con explicación del proyecto, y una explicación de cómo instalar o ejecutar la aplicación.
-
-Extras:
-
-- Añadir tests unitarios con PhpUnit.
-- Añadir Tests End2End con Selenium.
-
-### Tecnologías:
-
-- Frontend: HTML, CSS, SCSS - Opcional: Framework de CSS.
-- Backend: PHP.
-- Bases de datos: MySQL.
-- No se pueden usar otras librerias o frameworks que los espicificados.
+- CRUD type application (Create, Read, Update, Delete)
+- It should be Object Oriented with the MVC pattern
+- It should be on a free server in production.
+- Git should be used with good practices in commits.
+- The repository should contain a Readme with an explanation of the project, and an explanation of how to install or run the application.
 
