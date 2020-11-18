@@ -48,3 +48,15 @@ At the moment we are going to develop a minimum viable product (MVP). We will st
 - Git should be used with good practices in commits.
 - The repository should contain a Readme with an explanation of the project, and an explanation of how to install or run the application.
 
+### Card List (landing page)
+
+![](images/cardList.png)
+
+### Create a card
+![](images/newCard.png)
+
+### Edit Card 
+![](images/editCard.png)
+
+
+
